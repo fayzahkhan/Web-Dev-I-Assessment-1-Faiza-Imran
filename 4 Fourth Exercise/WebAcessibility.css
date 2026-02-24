@@ -1,0 +1,71 @@
+/* Let's make the page look nice and clean with some basic styling! :D */
+body {
+    background-color: #f4f4f4;   /* Light grey background */
+    color: #333;   /* Dark grey text for easy reading */
+    font-family: Arial, Helvetica, sans-serif;   /* let's go with this font lol */
+    margin: 0;   /* this removes the default margin around the body */
+    line-height: 1.5;   /* this will determine the spacing between lines. */
+    padding: 0;   /* this removes the default padding around the body */
+}
+
+/* let's center the content so it looks nice */
+header, main, footer {
+    max-width: 700px;   /* this limits the width of the content */
+    margin: 20px auto;   /* this will center the content horizontally */
+    background-color: rgb(255, 247, 221);   /* let's keep the content area white for better contrast */
+    padding: 20px;   /* this adds some space around the content inside the box */
+}
+
+header {
+    text-align: center;   /* this will center the header text */
+    border-bottom: 2px solid #333;   /* Let's add a nice border aswell! */
+}
+
+nav a {
+    margin: 10px;   /* this adds some space between the links */
+    color: #0066cc;   /* this controls the color for the links */
+    font-weight: bold;   /* this will make the links bold */
+}
+
+/* this will make the photos look nice and organized in a card like style */
+.photo-card {
+    margin-bottom: 50px;  /* this adds some space between the photo cards */
+    text-align: center;   /* This will center the text and the image in the card */
+}
+
+img {
+    max-width: 100%;   /* this makes sure the images don't overflow their container */
+    height: auto;   /* This keeps the aspect ratio of the images so they don't look squished */
+    border: 1px solid #ddd;   /* This will add a light border around the images */
+}
+
+/* This will make the button look nicer lol */
+button {
+    background-color: #222;   /* this controls the background color of the button */
+    color: white;   /* this controls the text color of the button */
+    padding: 10px 20px;   /* this adds some space inside the button around the text */
+    border: none;   /* This removes the default border around the button */
+    cursor: pointer;   /* this changes the cursor to a pointer when hovering over the button to indicate it's clickable */
+    font-size: 20px;   /* this controls the size of the text inside the button */
+}
+
+/* let's higlight the button when it's focused so it's easier to see */
+button:focus {
+    outline: 4px solid #ff9ac1;   /* this will adjust the color of the outline! */
+}
+
+button:hover {
+    background-color: #444;   /* a slightly lighter shade for the hover effect */
+}
+
+/* Target the cart icon specifically */
+.cart-icon {
+    width: 40px;   /* this will help adjust the the width of the cart icon */
+    height: auto;   /* This will keep the image from looking squished */
+    display: block;   /* Helps with positioning */
+    margin-left: auto;   /* This will push it to the right if it's in a flex container */
+}
+
+p {
+    font-weight: bold;   /* this makes all paragraph text bold */
+}

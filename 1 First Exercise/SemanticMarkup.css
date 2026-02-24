@@ -1,0 +1,50 @@
+/* Let's style the text to make it look cleaner and nicer. */
+body {
+    font-family: Arial, sans-serif;   /* let's use this font. */
+    line-height: 1.6;   /* this will determine the spacing between lines. */
+    color: #333;   /* this will determine the color of the text. */
+    max-width: 800px;   /* this will keep the content from stretching too wide. */
+    margin: 20px auto;   /* This will center the content on the page. */
+    border: 1px solid #ccc;   /* This will add a light border around the content. */
+    padding: 20px;
+}
+
+/*  Headings styling */
+h1, h2, h3 {
+    margin-top: 0;   /* Removes extra space at the top */
+}
+
+/* Navigation links styling */
+nav a {
+    margin-right: 15px;
+    text-decoration: underline;
+    color: blue;
+}
+
+/*  Header and footer styling */
+header, footer, aside {
+    background-color: #e0e0e0;   /* Light grey background from sample */
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+li {
+    margin-bottom: 5px;   /* Spacing between list items */
+}
+
+/*  Footer Specifics styling */
+footer {
+    margin-top: 40px;
+    font-size: 0.9em;
+}
+
+/* Let's make the "Egg Substitute" box */
+aside {   
+    border-left: 5px solid #e0e0e0;   /* Optional: adds a nice visual accent */
+}
+
+/*  Lists styling */
+ul, ol {
+    margin-bottom: 20px;   /* Adds space after lists */
+}
+

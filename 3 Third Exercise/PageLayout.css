@@ -1,0 +1,63 @@
+/* First we gotta center the header and nav, and make it look like the target */
+header {
+    text-align: center;   /* this will center the header text */
+    background-color: #f0f0f0;   /* Matches the light grey in the target */
+    padding: 20px;   /* Adds some space around the header content */
+}
+
+nav a {
+    margin: 0 15px;   /* Adds some space between the links */
+    text-decoration: underline;   /* underline and color for the links! :3 */
+    color: blue;   /* this controls the color of the links */
+}
+
+/* Thid id to make the intro section look like the target with text on the left and cow on the right */
+.intro-section {
+    display: flex;   /* This puts text and cow next to each other */
+    align-items: center;   /* this alligns them vertically */
+    padding: 20px;   /* this adds some space around the content */
+    background-color: #e0e0e0;   /* this matches the light grey background */
+}
+
+.text-content {
+    flex: 1;   /* This makes the text take up all the space it can, pushing the image to the right */
+    padding-right: 20px;   /* this adds some space between the text and the image */
+}
+
+.intro-image {
+    width: 400px;   /* This sets the image to a fixed width you can adjust this as needed */
+    border: 1px solid #999;   /* This adds a light border around the image to make it look nicer */
+    padding: 5px;   /* this adds a little white border look */
+    background-color: white;   /* this makes the background of the image white to match the target */
+}
+
+/* The gallery grid styling! :3 */
+.gallery-grid {
+    display: flex;   /* this makes the gallery a flex container */
+    flex-wrap: wrap;   /* this will let the images wrap to the next line when they run out of space */
+    gap: 0;   /* This will make sure there is no gap between the images, making them look like a grid */
+}
+
+.gallery-grid img, 
+.gallery-grid video {
+    height: 300px;   /* This sets a fixed height for all media items so that it looks clean and professional */
+    flex-grow: 1;   /* This makes sure all images and videos grow to fill the available space in their row */
+    object-fit: cover;   /* this will crop the images and the video so that it doesn't look squashed */
+}
+
+/* This will center the whole page and limit the width of the content */
+body {
+    background-color: #f0f0f0;   /* The grey background from the screenshot */
+    margin: 0;   /* This removes the default margin around the body */
+    display: flex;   /* This makes the body a flex container */
+    flex-direction: column;   /* This stacks the header, main, and footer vertically */
+    align-items: center;   /* this centers the content horizontally */
+}
+
+header, main {
+    background-color: white; /* This makes the header and main content have a white background like in the example */
+    width: 100%;   /* This makes the header and main content take up the full width of the page */
+    max-width: 1000px;   /* This limits the width to make it look better on large screens */
+    padding: 20px;  /* This adds some padding around the content */
+    box-sizing: border-box;  /* this makes sure the padding doesn't add to the total width */
+}

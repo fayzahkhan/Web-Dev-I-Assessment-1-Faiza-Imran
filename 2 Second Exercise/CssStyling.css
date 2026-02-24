@@ -1,0 +1,53 @@
+/* BasicPage Styling :D */
+body {
+    background-color: #d1d5db;   /* background Styling! :3 */
+    font-family: Arial, sans-serif;   /* let's use this font. */
+    line-height: 1.6;   /* this will determine the spacing between lines. */
+    margin: 0;   /* this removes the default margin around the body */
+    padding: 40px 20px;   /* this adds some space around the content */
+}
+
+/*  width and centering for the box :D */
+.content-wrapper {
+    background-color: white;  /* this will make the content area white. */
+    max-width: 600px;   /* this limits the width of the content */
+    margin: 0 auto;   /* this will center the box horizontally */
+    padding: 40px;    /* this adds some space around the content inside the box */
+    border-radius: 20px;   /* Rounded corners for the white container! :3 */
+}
+
+/* Typography styling :D */
+.main-title {
+    color: #f099bd;   /* this controls the color of the main title */
+    font-size: 5rem;   /* this controls the size of the main title */
+    text-align: center;   /* this will center the main title */
+    margin-top: 0;   /* this removes the extra space at the top of the main title */
+    font-weight: bold;   /* this will make the main title bold */
+}
+
+.sub-title {
+    color: #d9a6b4;   /* this controls the color of the sub title */
+    font-size: 3rem;   /* this controls the size of the sub title */
+    text-align: center;   /* this will center the sub title */
+    font-weight: bold;   /* This will make the sub title bold */
+}
+
+/* This is the 'Did you know?' box! :3 */
+.highlight-box {
+    background-color: #f2b3c5;   /* This controls the background color of the box */
+    color: rgb(0, 0, 0);   /* This controls the text color inside the box */
+    padding: 20px;   /* This adds some space inside the box around the content */ 
+    border-radius: 15px;   /* This will give the box rounded corners! */
+    margin: 30px 0;   /* This will add some space above and below the box. */
+}
+
+.highlight-box h3 {
+    margin-top: 0;   /* This will remove the extra space at the top of the heading inside the box. */
+    font-size: 1.5rem;   /* this controls the size of the 'Did you know?' heading inside the box */
+}
+
+/* Making the 'Did you know?' heading bigger! :3 */
+.h3 {
+    font-size: 34px;  /* this controls the size of the 'Did you know?' heading */
+    font-weight: bold; /* this will make the 'Did you know?' heading bold */
+}
